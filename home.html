@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Q1: FINAL PROJECT | HOME PAGE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+</head>
+<body>
+
+ <div class="topnav"  id="navbar" >
+    <ul>
+        <li><a href="order.html">Order Now</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="home.html">Home</a></li>
+        </ul>
+    </div>
+
+    <!-- contains: shop name, owner, logo, and year established -->
+    <div id="shop"> 
+        <!-- shop logo -->
+        <img src="sbclub.png" alt="club">
+
+        <!-- header details -->
+            <div id="name"></div>
+            <div id="details"></div>
+            <div id="tax"></div>
+    </div>
+
+    <!-- contains: product names, price list, best sellers -->
+    <div id="menu">
+
+        <!-- table for menu -->
+        <table id="menu-table">
+            <tr>
+                <th>Menu</th>
+                <th>Prices</th>
+            </tr>
+            <tr>
+                <td id="desserts"></td>
+                <td id="price"></td>
+            </tr>
+        </table>
+        </div>
+        
+        <!-- contains: common allergens -->
+        <div id="allergens"></div>
+
+        <!-- contains: delivery & dine-in hours,  -->
+        <div id="hours"></div>
+    
+    <!-- closing sign -->
+    <div id="bye"><img src="sbye.png" alt="bye"></div>
+    <py-script src="main.py"></py-script>
+</body>
+
+</html>
